@@ -14,3 +14,7 @@ function factorial(num) {
   }
   return num;
 }
+
+function mult(a, b) {
+  return a * b;
+}
