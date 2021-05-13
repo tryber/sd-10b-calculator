@@ -5,6 +5,7 @@ function subtract(a, b) {
 function sum(a, b) {
   return a + b;
 }
+
 function factorial(num) {
   let result = num;
   if (num === 0 || num === 1) 
@@ -14,4 +15,8 @@ function factorial(num) {
     result *= num;
   }
   return result;
+}
+
+function mult(a, b) {
+  return a * b;
 }
